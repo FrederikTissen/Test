@@ -1,0 +1,99 @@
+/* Just for smartpones*/
+@media(max-width: 950px) {
+    .hide-mobil {
+        display: none;
+    }
+
+    .page {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .posts {
+        margin-right: unset;
+    }
+
+    .copyrigth{
+        text-align: center;
+    }
+}
+
+/* Just for smartpones*/
+@media(max-width: 760px) {
+    .hide-mobil {
+        display: none;
+    }
+
+    .icons_header_container {
+        width: unset;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: white;
+        padding: 15px;
+        border-top: 2px solid #80808063;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    .sidebar_box {
+        margin-bottom: 75px;
+    }
+}
+
+/* Just for smartpones*/
+@media(max-width: 540px) {
+    .hide-mobil {
+        display: none;
+    }
+
+    .img_post {
+        width: 100%;
+        height: 300px;
+    }
+
+    .post_block{
+        width: 90%;
+    }
+
+    .posts {
+        display: contents;
+        justify-content: center; 
+    }
+
+    .header{
+        flex-direction: column;
+        height: 90px;
+    }
+
+    .flex_dc{
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 90%;
+    }
+
+    .my_profile {
+        width: unset;
+    }
+
+    .logo {
+        padding-right: 10px;
+    }
+ 
+}
+
+/* Just for smartpones*/
+@media(max-width: 400px) {
+    .hide-mobil {
+        display: none;
+    }
+
+    .comment_Post{
+        width: 130px;
+    }
+
+   
+}

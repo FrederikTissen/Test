@@ -1,0 +1,93 @@
+let users = [
+    {
+        'image': 'img/profile_jim.jpg',
+        'user': 'Jim',
+        'sub_title': 'Janosch ist Follower',
+    },
+    {
+        'image': 'img/profile_john.jpg',
+        'user': 'John',
+        'sub_title': 'Beliebt',
+    },
+    {
+        'image': 'img/profile_mark.jpg',
+        'user': 'Mark',
+        'sub_title': 'Beliebt',
+    },
+    {
+        'image': 'img/profile_max.jpg',
+        'user': 'Max',
+        'sub_title': 'Neu auf Instaclone',
+    },
+    {
+        'image': 'img/profile_milo.jpg',
+        'user': 'Milo',
+        'sub_title': 'Jim ist Follower',
+    },
+    {
+        'image': 'img/profile_nathan.jpg',
+        'user': 'Nathan',
+        'sub_title': 'Neu auf Instaclone',
+    },
+];
+
+
+let posts = [
+    {
+        'profile_image': 'img/profile_nathan.jpg',
+        'user': 'Nathan',
+        'location': 'Hamburg',
+        'image': 'img/img_cup_caravan.jpg',
+        'likes_number': '1154',
+        'user_comment': 'Der perfekte Morgen beginnt immer mit einer guten Tasse Kaffe und einem blauen Himmel!',
+        'hashtag1': '#Mallorca',
+        'hashtag2': '#Morgenroutine',
+        'hashtag3': '#Campen',
+        'hashtag4': '#Frühstück',
+        'date': '29.10.2022',
+        'comments': [],
+    },
+    {
+        'profile_image': 'img/profile_milo.jpg',
+        'user': 'Milo',
+        'location': 'Bern',
+        'image': 'img/img_feet.jpg',
+        'likes_number': '954',
+        'user_comment': 'Hammer... ein Morgen ohne Sorgen in der Wildnis von Norwegen! Zu zweit ist es am schönsten!!!',
+        'hashtag1': '#Norwegen',
+        'hashtag2': '#Freiheit',
+        'hashtag3': '#Campen',
+        'hashtag4': '#Wildnis',
+        'date': '25.10.2022',
+        'comments': [],
+    },
+    {
+        'profile_image': 'img/profile_john.jpg',
+        'user': 'John',
+        'location': 'Bückburg',
+        'image': 'img/img_walking.jpg',
+        'likes_number': '15154',
+        'user_comment': 'Nur noch 500 Höhenmeter, dann bin ich angekommen. Wie befreiend doch dieser Ausblick ist!',
+        'hashtag1': '#Walken',
+        'hashtag2': '#Wandern',
+        'hashtag3': '#Bergsteigen',
+        'hashtag4': '#Ausflug',
+        'date': '23.10.2022',
+        'comments': [],
+    },
+    {
+        'profile_image': 'img/profile_max.jpg',
+        'user': 'Max',
+        'location': 'Düsseldorf',
+        'image': 'img/img_fire.jpg',
+        'likes_number': '24454',
+        'user_comment': 'Entspannt den Abend ausklingen lassen...',
+        'hashtag1': '#Lagerfeuer',
+        'hashtag2': '#Entspannung',
+        'hashtag3': '#Freunde',
+        'hashtag4': '#Campen',
+        'date': '30.10.2022',
+        'comments': [],
+    },
+];
+

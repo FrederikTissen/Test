@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instaclone</title>
+
+  <script src="script.js"></script>
+  <script src="data.js"></script>
+  <script src="templates.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style_responsive.css">
+
+
+</head>
+
+<body style="overflow-y: unset;" id="body" onload="onload()">
+  <div class="header">
+    <img class="logo pointer" src="img/logo_transparent.png" >
+    <input class="input_header" type="text" placeholder="Suche">
+    <div class="icons_header_container">
+      <img class="icons_header pointer" src="img/icons_house.png">
+      <img class="pointer" src="img/icons_send_24px.png">
+      <img class="icons_header pointer" src="img/icons_plus.png">
+      <img class="icons_header pointer" src="img/icons_compass.png">
+      <img class="icons_header pointer" src="img/icons_heart_24px.png">
+    </div>
+  </div>
+
+  <div class="page">
+    <div id="posts" class="posts"></div>
+    
+    <div class="sidebar">
+      <div class="sidebar_box">
+      <div class="my_profile">
+        <div class="d-flex">
+          <img class="profil_50" src="img/profile_dan.jpg">
+          <div >
+            <p class="margin_5"><b>Dan</b></p>
+            <p class="margin_5 font_smaller">Hans Muster</p>
+          </div>
+        </div>
+        <button>Wechseln</button>
+      </div>
+
+      <div class="d-flex-b">
+        <p>Vorschläge für dich</p>
+        <span class="pointer" >Alle ansehen</span>
+      </div>
+
+      <div id="sidebarUserContainer" class="sidebar_user_container"></div>
+      <p class="copyrigth">©2022 Frederik Tissen</p>
+    </div>
+  </div>
+    
+  </div>
+ 
+  
+</body>
+
+</html>
